@@ -1,0 +1,22 @@
+mongo:
+  host: "localhost"
+  port: 27017
+  auth:
+    enabled: false
+    username: ""
+    password: ""
+redis:
+  host: "127.0.0.1"
+  port: 6379
+  auth:
+    enabled: false
+    password: ""
+server:
+  name: "hub-01"
+  displayName: "Hub 01"
+  group: "hubs"
+config:
+  update-tab-name: true
+  chat:
+    slow: 1
+    muted: false

@@ -1,0 +1,6 @@
+authors: [tomGBO]
+depend: [NitroLib, Vault, LuckPerms]
+loadbefore: [LuckPerms]
+main: uk.rayware.nitrogen.Nitrogen
+name: Nitrogen
+version: ${project.version}-${git.commit.id.abbrev}

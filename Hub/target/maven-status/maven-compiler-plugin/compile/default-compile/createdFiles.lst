@@ -1,0 +1,15 @@
+uk\rayware\hub\util\NPCUtil.class
+uk\rayware\hub\command\RemoveNpcCommand.class
+uk\rayware\hub\listeners\HubListeners$1.class
+uk\rayware\hub\menu\ProfileMenu.class
+uk\rayware\hub\HubPlugin.class
+uk\rayware\hub\util\StatusUtil.class
+uk\rayware\hub\command\AddNpcCommand.class
+uk\rayware\hub\listeners\HubListeners.class
+uk\rayware\hub\menu\CosmeticsMenu.class
+uk\rayware\hub\menu\GameSelectorMenu.class
+uk\rayware\hub\npc\ServerNPC.class
+uk\rayware\hub\tasks\GlobalPlayerCountTask.class
+uk\rayware\hub\util\GUIUtil.class
+uk\rayware\hub\scoreboard\ScoreboardProvider.class
+uk\rayware\hub\listeners\JoinMessage.class

@@ -1,0 +1,6 @@
+authors: [tomGBO]
+depend: [NitroLib, Nitrogen, GBOQueue]
+softdepend: [Citizens]
+name: Hub
+main: uk.rayware.hub.HubPlugin
+version: ${project.version}-${git.commit.id.abbrev}

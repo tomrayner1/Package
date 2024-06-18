@@ -1,0 +1,15 @@
+prompt-right-click: false
+join-message:
+  - ""
+  - "&6&lWelcome back&r %displayName%"
+  - ""
+  - "&6%bar%&f Website:&e ${website}"
+  - "&6%bar%&f Store:&e ${store}"
+  - "&6%bar%&f Discord:&e ${discord}"
+  - "&6%bar%&f Twitter:&e ${twitter}"
+  - ""
+board-footers:
+  - "&e%time%"
+  - "&etwitter.com/methmc"
+  - "&emethmc.com/discord"
+  - "&estore.methmc.com"

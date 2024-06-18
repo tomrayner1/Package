@@ -1,0 +1,22 @@
+mongo:
+  host: "127.0.0.1"
+  port: 27017
+  auth:
+    enabled: false
+    username: ""
+    password: ""
+redis:
+  host: "127.0.0.1"
+  port: 6379
+  auth:
+    enabled: false
+    password: ""
+server:
+  name: "custom"
+  displayName: "Custom"
+  group: "staging"
+config:
+  update-tab-name: true
+  chat:
+    slow: 1
+    muted: false

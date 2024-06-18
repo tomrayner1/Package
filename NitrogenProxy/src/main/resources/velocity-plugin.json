@@ -1,0 +1,7 @@
+{
+  "id": "nitrogenproxy",
+  "name": "NitrogenProxy",
+  "version": "1.0",
+  "authors": ["tomGBO"],
+  "main": "uk.rayware.nitrogenproxy.NitrogenProxy"
+}

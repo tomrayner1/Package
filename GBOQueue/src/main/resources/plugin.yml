@@ -1,0 +1,5 @@
+authors: [tomGBO]
+depend: [Nitrogen, NitroLib]
+main: uk.rayware.gboqueue.QueuePlugin
+name: GBOQueue
+version: ${project.version}-${git.commit.id.abbrev}

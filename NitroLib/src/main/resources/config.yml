@@ -1,0 +1,7 @@
+settings:
+  disableAchievements: true
+  tipTimer: 120
+  economy: false
+tips:
+  - "&eFollow us on twitter @MethMC (twitter.com/methmc&e)."
+  - "&eJoin our discord to keep up with latest updates (methmc.com/discord&e)."

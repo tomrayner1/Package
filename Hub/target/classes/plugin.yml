@@ -1,0 +1,6 @@
+authors: [tomGBO]
+depend: [NitroLib, Nitrogen, GBOQueue]
+softdepend: [Citizens]
+name: Hub
+main: uk.rayware.hub.HubPlugin
+version: 2.1-68112c29

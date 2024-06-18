@@ -1,0 +1,4 @@
+authors: [tomGBO, EthanHoward]
+main: uk.rayware.nitrolib.NitroLib
+name: NitroLib
+version: ${project.version}-${git.commit.id.abbrev}

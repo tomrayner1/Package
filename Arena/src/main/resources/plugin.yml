@@ -1,0 +1,4 @@
+authors: [tomGBO]
+name: Arena
+main: uk.rayware.arena.Arena
+version: ${project.version}-${git.commit.id.abbrev}

@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/GBOQueue/GBOQueue.iml" filepath="$PROJECT_DIR$/GBOQueue/GBOQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hub/Hub.iml" filepath="$PROJECT_DIR$/Hub/Hub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NitroLib/NitroLib.iml" filepath="$PROJECT_DIR$/NitroLib/NitroLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nitrogen/Nitrogen.iml" filepath="$PROJECT_DIR$/Nitrogen/Nitrogen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NitrogenProxy/NitrogenProxy.iml" filepath="$PROJECT_DIR$/NitrogenProxy/NitrogenProxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Old server.iml" filepath="$PROJECT_DIR$/.idea/Old server.iml" />
     </modules>
   </component>

@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/NitroLib/pom.xml" />
         <option value="$PROJECT_DIR$/GBOSpigot/pom.xml" />
         <option value="$PROJECT_DIR$/NitrogenProxy/pom.xml" />
+        <option value="$PROJECT_DIR$/Guard/pom.xml" />
+        <option value="$PROJECT_DIR$/Arena/pom.xml" />
       </list>
     </option>
   </component>

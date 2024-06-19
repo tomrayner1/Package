@@ -1,0 +1,326 @@
+[00:47:27] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[00:47:27] [Server thread/INFO]: Loading properties
+[00:47:27] [Server thread/INFO]: Default game type: SURVIVAL
+[00:47:27] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[00:47:27] [Server thread/INFO]: Debug logging is disabled
+[00:47:27] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[00:47:27] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:47:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[00:47:27] [Server thread/INFO]: Data value allowed items: 
+[00:47:27] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[00:47:27] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[00:47:27] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[00:47:27] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[00:47:27] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[00:47:27] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[00:47:27] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[00:47:27] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[00:47:27] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[00:47:27] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[00:47:27] [Server thread/INFO]: Generating keypair
+[00:47:27] [Server thread/INFO]: Starting Minecraft server on *:25567
+[00:47:27] [Server thread/INFO]: Using default channel type
+[00:47:27] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[00:47:27] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[00:47:27] [Server thread/INFO]: [NitroLib] Loading NitroLib v1.0-ad4f2796
+[00:47:27] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.134
+[00:47:27] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[00:47:27] [Server thread/INFO]: [Nitrogen] Loading Nitrogen v1.4.1-d8e86470
+[00:47:27] [Server thread/WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+[00:47:27] [Server thread/WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+[00:47:27] [Server thread/WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+[00:47:27] [Server thread/INFO]: [Nitrogen] Creating profiles collection.
+[00:47:27] [Server thread/INFO]: [Nitrogen] Starting Arena. Current group: arena.
+[00:47:27] [Server thread/INFO]: [GBOQueue] Loading GBOQueue v1.0-8b60ea02
+[00:47:27] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.134
+[00:47:28] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+
+[00:47:28] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.134[m
+
+[00:47:28] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+
+[00:47:28] [Server thread/INFO]: [m
+
+[00:47:28] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[00:47:28] [Server thread/INFO]: [LuckPerms] Resolved configuration value from system property: luckperms.server = Arena
+[00:47:28] [Server thread/INFO]: [LuckPerms] Loading storage provider... [MONGODB]
+[00:47:28] [Server thread/INFO]: [LuckPerms] Loading messaging service... [REDIS]
+[00:47:28] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[00:47:28] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[00:47:28] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 852ms)
+[00:47:28] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[00:47:28] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[00:47:28] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[00:47:28] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[00:47:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:47:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:47:28] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[00:47:28] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[00:47:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:47:28] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[00:47:28] [Server thread/INFO]: Preparing level "world"
+[00:47:28] [Server thread/INFO]: -------- World Settings For [world] --------
+[00:47:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:47:28] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:47:28] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:47:28] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:47:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:47:28] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[00:47:28] [Server thread/INFO]: Clear tick list: false
+[00:47:28] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:47:28] [Server thread/INFO]: View Distance: 10
+[00:47:28] [Server thread/INFO]: Structure Info Saving: true
+[00:47:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[00:47:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:47:28] [Server thread/INFO]: Random Lighting Updates: false
+[00:47:28] [Server thread/INFO]: Max Entity Collisions: 8
+[00:47:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:47:28] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:47:28] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:47:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:47:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:47:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:47:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:47:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:47:28] [Server thread/INFO]: Sending up to 10 chunks per packet
+[00:47:28] [Server thread/INFO]: Max TNT Explosions: 100
+[00:47:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[00:47:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:47:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:47:28] [Server thread/INFO]: Mob Spawn Range: 4
+[00:47:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[00:47:28] [Server thread/INFO]: Anti X-Ray: true
+[00:47:28] [Server thread/INFO]: 	Engine Mode: 1
+[00:47:28] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[00:47:28] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[00:47:28] [Server thread/INFO]: -------- World Settings For [world] --------
+[00:47:28] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[00:47:28] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[00:47:28] [Server thread/INFO]: Water over lava flow speed: 5
+[00:47:28] [Server thread/INFO]: Fix TNT cannons: false
+[00:47:28] [Server thread/INFO]: Keep spawn chunk loaded: true
+[00:47:28] [Server thread/INFO]: World async lighting: false
+[00:47:28] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[00:47:28] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[00:47:28] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[00:47:28] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[00:47:28] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[00:47:28] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[00:47:29] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[00:47:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:47:29] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:47:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:47:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:47:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:47:29] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[00:47:29] [Server thread/INFO]: Clear tick list: false
+[00:47:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:47:29] [Server thread/INFO]: View Distance: 10
+[00:47:29] [Server thread/INFO]: Structure Info Saving: true
+[00:47:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[00:47:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:47:29] [Server thread/INFO]: Random Lighting Updates: false
+[00:47:29] [Server thread/INFO]: Max Entity Collisions: 8
+[00:47:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:47:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:47:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:47:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:47:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:47:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:47:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:47:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:47:29] [Server thread/INFO]: Sending up to 10 chunks per packet
+[00:47:29] [Server thread/INFO]: Max TNT Explosions: 100
+[00:47:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[00:47:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:47:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:47:29] [Server thread/INFO]: Mob Spawn Range: 4
+[00:47:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[00:47:29] [Server thread/INFO]: Anti X-Ray: true
+[00:47:29] [Server thread/INFO]: 	Engine Mode: 1
+[00:47:29] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[00:47:29] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[00:47:29] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[00:47:29] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[00:47:29] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[00:47:29] [Server thread/INFO]: Water over lava flow speed: 5
+[00:47:29] [Server thread/INFO]: Fix TNT cannons: false
+[00:47:29] [Server thread/INFO]: Keep spawn chunk loaded: true
+[00:47:29] [Server thread/INFO]: World async lighting: false
+[00:47:29] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[00:47:29] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[00:47:29] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[00:47:29] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[00:47:29] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[00:47:29] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[00:47:29] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[00:47:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:47:29] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[00:47:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:47:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:47:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:47:29] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[00:47:29] [Server thread/INFO]: Clear tick list: false
+[00:47:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:47:29] [Server thread/INFO]: View Distance: 10
+[00:47:29] [Server thread/INFO]: Structure Info Saving: true
+[00:47:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[00:47:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:47:29] [Server thread/INFO]: Random Lighting Updates: false
+[00:47:29] [Server thread/INFO]: Max Entity Collisions: 8
+[00:47:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:47:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:47:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:47:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:47:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:47:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:47:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:47:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:47:29] [Server thread/INFO]: Sending up to 10 chunks per packet
+[00:47:29] [Server thread/INFO]: Max TNT Explosions: 100
+[00:47:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[00:47:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:47:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:47:29] [Server thread/INFO]: Mob Spawn Range: 4
+[00:47:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[00:47:29] [Server thread/INFO]: Anti X-Ray: true
+[00:47:29] [Server thread/INFO]: 	Engine Mode: 1
+[00:47:29] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[00:47:29] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[00:47:29] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[00:47:29] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[00:47:29] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[00:47:29] [Server thread/INFO]: Water over lava flow speed: 5
+[00:47:29] [Server thread/INFO]: Fix TNT cannons: false
+[00:47:29] [Server thread/INFO]: Keep spawn chunk loaded: true
+[00:47:29] [Server thread/INFO]: World async lighting: false
+[00:47:29] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[00:47:29] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[00:47:29] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[00:47:29] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[00:47:29] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[00:47:29] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[00:47:29] [Server thread/INFO]: Preparing start region for level 0 (Seed: -6376835287198521596)
+[00:47:29] [Server thread/INFO]: Preparing start region for level 1 (Seed: -6376835287198521596)
+[00:47:30] [Server thread/INFO]: Preparing start region for level 2 (Seed: -6376835287198521596)
+[00:47:30] [Server thread/INFO]: [NitroLib] Enabling NitroLib v1.0-ad4f2796
+[00:47:30] [Server thread/INFO]: [NitroLib/LC-API] LunarClientAPI has initialized.
+[00:47:30] [Server thread/INFO]: [NitroLib] Getting command map (potential reflection error)
+[00:47:30] [Server thread/INFO]: [NitroLib] Handling config
+[00:47:30] [Server thread/INFO]: [NitroLib] Starting aids tip messages.
+[00:47:30] [Server thread/INFO]: [NitroLib] Implementing listeners
+[00:47:30] [Server thread/INFO]: [NitroLib]   Disabling join & quit messages
+[00:47:30] [Server thread/INFO]: [NitroLib]   Removing /minecraft:tell & /minecraft:me permissions
+[00:47:30] [Server thread/INFO]: [NitroLib]   Disabling achievements
+[00:47:30] [Server thread/INFO]: [NitroLib] Implementing commands
+[00:47:30] [Server thread/INFO]: [NitroLib]   Build toggle command (nitrolib.command.build)
+[00:47:30] [Server thread/INFO]: [NitroLib]   Set spawn command (nitrolib.command.setspawn)
+[00:47:30] [Server thread/INFO]: [NitroLib]   Waypoint command (nitrolib.command.waypoint)
+[00:47:30] [Server thread/INFO]: [NitroLib]   Max slots command (nitrolib.command.maxslots)
+[00:47:30] [Server thread/INFO]: [NitroLib]   Registering brand channel listener 
+[00:47:30] [Server thread/INFO]: [NitroLib] Finished
+[00:47:30] [Server thread/INFO]: [Nitrogen] Enabling Nitrogen v1.4.1-d8e86470
+[00:47:30] [Server thread/INFO]: [Nitrogen] Hooked into Vault.
+[00:47:30] [Server thread/INFO]: [Nitrogen] Hooked into LuckPerms.
+[00:47:30] [Server thread/INFO]: [GBOQueue] Enabling GBOQueue v1.0-8b60ea02
+[00:47:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:47:30] [Server thread/INFO]: Done (1.700s)! For help, type "help" or "?"
+[00:47:30] [Server thread/INFO]: Timings Reset
+[00:47:33] [Thread-7/INFO]: UUID of player tomGBO is 74394d28-b382-421b-be65-86330d3ca386
+[00:47:33] [Thread-5/INFO]: [0;36;1m[S][m [0;31;22m[3mtomGBO[0;36;22m joined [0;36;1marena[0;36;22m from [0;36;1mhub-01[0;36;22m.[m
+
+[00:47:33] [Server thread/INFO]: tomGBO[/127.0.0.1:57981] logged in with entity id 55 at ([world]151.395541784331, 64.0, 45.51596490133309)
+[00:47:33] [Server thread/INFO]: [NitroLib/LC-API] Player tomGBO (74394d28-b382-421b-be65-86330d3ca386) has registered with Lunar Client channel
+[00:47:35] [Server thread/INFO]: tomGBO issued server command: /setslots
+[00:47:38] [Server thread/INFO]: tomGBO issued server command: /maxslots 123
+[00:47:39] [Thread-5/INFO]: [0;36;1m[S][m [0;31;22m[3mtomGBO[0;36;22m joined [0;36;1mhub-01[0;36;22m from [0;36;1marena[0;36;22m.[m
+
+[00:47:39] [Server thread/INFO]: tomGBO lost connection: Disconnected
+[00:47:39] [Server thread/INFO]: [NitroLib/LC-API] Player tomGBO (74394d28-b382-421b-be65-86330d3ca386) has unregistered with Lunar Client channel
+[00:47:45] [Thread-8/INFO]: UUID of player tomGBO is 74394d28-b382-421b-be65-86330d3ca386
+[00:47:46] [Thread-5/INFO]: [0;36;1m[S][m [0;31;22m[3mtomGBO[0;36;22m joined [0;36;1marena[0;36;22m from [0;36;1mhub-01[0;36;22m.[m
+
+[00:47:46] [Server thread/INFO]: tomGBO[/127.0.0.1:57992] logged in with entity id 57 at ([world]151.8335546766135, 64.0, 45.848124571082735)
+[00:47:46] [Server thread/INFO]: [NitroLib/LC-API] Player tomGBO (74394d28-b382-421b-be65-86330d3ca386) has registered with Lunar Client channel
+[00:47:47] [Server thread/INFO]: tomGBO issued server command: /wl
+[00:47:48] [Server thread/INFO]: tomGBO issued server command: /whitelist on
+[00:47:48] [Server thread/INFO]: [tomGBO: Turned on the whitelist]
+[00:47:49] [Thread-5/INFO]: [0;36;1m[S][m [0;31;22m[3mtomGBO[0;36;22m joined [0;36;1mhub-01[0;36;22m from [0;36;1marena[0;36;22m.[m
+
+[00:47:49] [Server thread/INFO]: tomGBO lost connection: Disconnected
+[00:47:49] [Server thread/INFO]: [NitroLib/LC-API] Player tomGBO (74394d28-b382-421b-be65-86330d3ca386) has unregistered with Lunar Client channel
+[00:48:21] [Thread-9/INFO]: UUID of player tomGBO is 74394d28-b382-421b-be65-86330d3ca386
+[00:48:21] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@434b6820[id=74394d28-b382-421b-be65-86330d3ca386,name=tomGBO,properties={textures=[com.mojang.authlib.properties.Property@a973895]},legacy=false] (/127.0.0.1:58017): You are not whitelisted on this server!
+[00:48:21] [Server thread/INFO]: com.mojang.authlib.GameProfile@434b6820[id=74394d28-b382-421b-be65-86330d3ca386,name=tomGBO,properties={textures=[com.mojang.authlib.properties.Property@a973895]},legacy=false] (/127.0.0.1:58017) lost connection: You are not whitelisted on this server!
+[00:48:22] [Thread-10/INFO]: UUID of player tomGBO is 74394d28-b382-421b-be65-86330d3ca386
+[00:48:22] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@3460a5e0[id=74394d28-b382-421b-be65-86330d3ca386,name=tomGBO,properties={textures=[com.mojang.authlib.properties.Property@4066a68a]},legacy=false] (/127.0.0.1:58020): You are not whitelisted on this server!
+[00:48:22] [Server thread/INFO]: com.mojang.authlib.GameProfile@3460a5e0[id=74394d28-b382-421b-be65-86330d3ca386,name=tomGBO,properties={textures=[com.mojang.authlib.properties.Property@4066a68a]},legacy=false] (/127.0.0.1:58020) lost connection: You are not whitelisted on this server!
+[00:48:23] [Thread-11/INFO]: UUID of player tomGBO is 74394d28-b382-421b-be65-86330d3ca386
+[00:48:23] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@2243e7b4[id=74394d28-b382-421b-be65-86330d3ca386,name=tomGBO,properties={textures=[com.mojang.authlib.properties.Property@2265051f]},legacy=false] (/127.0.0.1:58021): You are not whitelisted on this server!
+[00:48:23] [Server thread/INFO]: com.mojang.authlib.GameProfile@2243e7b4[id=74394d28-b382-421b-be65-86330d3ca386,name=tomGBO,properties={textures=[com.mojang.authlib.properties.Property@2265051f]},legacy=false] (/127.0.0.1:58021) lost connection: You are not whitelisted on this server!
+[00:48:23] [Thread-12/INFO]: UUID of player tomGBO is 74394d28-b382-421b-be65-86330d3ca386
+[00:48:23] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@69df38ae[id=74394d28-b382-421b-be65-86330d3ca386,name=tomGBO,properties={textures=[com.mojang.authlib.properties.Property@d6f1130]},legacy=false] (/127.0.0.1:58022): You are not whitelisted on this server!
+[00:48:23] [Server thread/INFO]: com.mojang.authlib.GameProfile@69df38ae[id=74394d28-b382-421b-be65-86330d3ca386,name=tomGBO,properties={textures=[com.mojang.authlib.properties.Property@d6f1130]},legacy=false] (/127.0.0.1:58022) lost connection: You are not whitelisted on this server!
+[00:48:28] [Server thread/INFO]: Turned off the whitelist
+[00:48:28] [Thread-13/INFO]: UUID of player tomGBO is 74394d28-b382-421b-be65-86330d3ca386
+[00:48:28] [Thread-5/INFO]: [0;36;1m[S][m [0;31;22m[3mtomGBO[0;36;22m joined [0;36;1marena[0;36;22m from [0;36;1mhub-01[0;36;22m.[m
+
+[00:48:28] [Server thread/INFO]: tomGBO[/127.0.0.1:58031] logged in with entity id 64 at ([world]152.22446166348357, 64.0, 46.144562274057606)
+[00:48:28] [Server thread/INFO]: [NitroLib/LC-API] Player tomGBO (74394d28-b382-421b-be65-86330d3ca386) has registered with Lunar Client channel
+[00:48:32] [Thread-5/INFO]: [0;36;1m[S][m [0;31;22m[3mtomGBO[0;36;22m joined [0;36;1mhub-01[0;36;22m from [0;36;1marena[0;36;22m.[m
+
+[00:48:33] [Server thread/INFO]: tomGBO lost connection: Disconnected
+[00:48:33] [Server thread/INFO]: [NitroLib/LC-API] Player tomGBO (74394d28-b382-421b-be65-86330d3ca386) has unregistered with Lunar Client channel
+[00:48:46] [Thread-14/INFO]: UUID of player tomGBO is 74394d28-b382-421b-be65-86330d3ca386
+[00:48:46] [Thread-5/INFO]: [0;36;1m[S][m [0;31;22m[3mtomGBO[0;36;22m joined [0;36;1marena[0;36;22m from [0;36;1mhub-01[0;36;22m.[m
+
+[00:48:46] [Server thread/INFO]: tomGBO[/127.0.0.1:58050] logged in with entity id 81 at ([world]165.66425504447005, 64.0, 51.00601921424583)
+[00:48:46] [Server thread/INFO]: [NitroLib/LC-API] Player tomGBO (74394d28-b382-421b-be65-86330d3ca386) has registered with Lunar Client channel
+[00:48:53] [Server thread/INFO]: tomGBO issued server command: /kick
+[00:48:54] [Server thread/INFO]: tomGBO issued server command: / a
+[00:48:56] [Server thread/INFO]: tomGBO issued server command: /mute
+[00:48:58] [Server thread/INFO]: tomGBO issued server command: /bam
+[00:48:59] [Server thread/INFO]: tomGBO issued server command: /ban
+[00:49:00] [Server thread/INFO]: tomGBO issued server command: /ban a
+[00:49:01] [Server thread/INFO]: [tomGBO: Banned player a]
+[00:49:03] [Server thread/INFO]: tomGBO issued server command: /pardon a
+[00:49:03] [Server thread/INFO]: [tomGBO: Unbanned player a]
+[00:49:06] [Thread-5/INFO]: [0;36;1m[S][m [0;31;22m[3mtomGBO[0;36;22m joined [0;36;1mhub-01[0;36;22m from [0;36;1marena[0;36;22m.[m
+
+[00:49:06] [Server thread/INFO]: tomGBO lost connection: Disconnected
+[00:49:06] [Server thread/INFO]: [NitroLib/LC-API] Player tomGBO (74394d28-b382-421b-be65-86330d3ca386) has unregistered with Lunar Client channel
+[00:49:16] [Thread-5/INFO]: [0;36;1m[S][m [0;31;22m[3mtomGBO[0;36;22m has disconnected from [0;36;1mhub-01[0;36;22m.[m
+
+[00:49:28] [Craft Scheduler Thread - 6/INFO]: [Nitrogen] 60/60 heartbeats were successful.
+[00:51:28] [Craft Scheduler Thread - 6/INFO]: [Nitrogen] 60/60 heartbeats were successful.
+[00:53:28] [Craft Scheduler Thread - 6/INFO]: [Nitrogen] 60/60 heartbeats were successful.
+[00:55:28] [Craft Scheduler Thread - 6/INFO]: [Nitrogen] 60/60 heartbeats were successful.
+[00:55:37] [Thread-5/INFO]: [0;36;1m[S][m [0;31;22m[3mtomGBO[0;36;22m has connected to [0;36;1mhub-01[0;36;22m.[m
+
+[00:55:40] [Thread-5/INFO]: [0;36;1m[S][m [0;31;22m[3mtomGBO[0;36;22m has disconnected from [0;36;1mhub-01[0;36;22m.[m
+
+[00:55:56] [Thread-5/INFO]: [0;36;1m[S][m [0;31;22m[3mtomGBO[0;36;22m has connected to [0;36;1mhub-01[0;36;22m.[m
+
+[00:57:28] [Craft Scheduler Thread - 1/INFO]: [Nitrogen] 60/60 heartbeats were successful.
+[00:57:46] [Thread-5/INFO]: [0;36;1m[S][m [0;31;22m[3mtomGBO[0;36;22m has disconnected from [0;36;1mhub-01[0;36;22m.[m
+
+[00:59:28] [Craft Scheduler Thread - 1/INFO]: [Nitrogen] 60/60 heartbeats were successful.
+[01:01:28] [Craft Scheduler Thread - 1/INFO]: [Nitrogen] 60/60 heartbeats were successful.
+[01:03:28] [Craft Scheduler Thread - 1/INFO]: [Nitrogen] 60/60 heartbeats were successful.
+[01:05:28] [Craft Scheduler Thread - 1/INFO]: [Nitrogen] 60/60 heartbeats were successful.
+[01:07:28] [Craft Scheduler Thread - 1/INFO]: [Nitrogen] 60/60 heartbeats were successful.
+[01:09:28] [Craft Scheduler Thread - 1/INFO]: [Nitrogen] 60/60 heartbeats were successful.

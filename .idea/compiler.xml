@@ -9,6 +9,7 @@
         <module name="Hub" />
         <module name="GBOQueue" />
         <module name="NitroLib" />
+        <module name="Guard" />
         <module name="api" />
         <module name="Nitrogen" />
         <module name="gbospigot" />

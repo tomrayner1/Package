@@ -1,58 +1,52 @@
-[00:17:15] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.3.0-SNAPSHOT (git-9d25d309-b400)...
-[00:17:15] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
-[00:17:16] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use NIO channels, Java compression, Java ciphers
-[00:17:16] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
-[00:17:16] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin luckperms 5.4.134 by Luck
-[00:17:16] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nitrogenproxy 1.0 by tomGBO
-[00:17:16] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin skinsrestorer 15.0.15 by knat, AlexProgrammerDE, Blackfire62, McLive
-[00:17:16] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 3 plugins
-[00:17:16] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:         __    
-[00:17:16] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |    |__)   LuckPerms v5.4.134
-[00:17:16] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |___ |      Running on Velocity - Velocity
-[00:17:16] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
-[00:17:16] [Velocity Async Event Executor - #0/INFO] [luckperms]: Loading configuration...
-[00:17:16] [Velocity Async Event Executor - #0/INFO] [luckperms]: Loading storage provider... [MONGODB]
-[00:17:16] [Velocity Async Event Executor - #0/INFO] [org.mongodb.driver.cluster]: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
-[00:17:16] [Velocity Async Event Executor - #0/INFO] [luckperms]: Loading messaging service... [REDIS]
-[00:17:16] [cluster-ClusterId{value='6672157c0d51161302bc90a7', description='null'}-localhost:27017/INFO] [org.mongodb.driver.connection]: Opened connection [connectionId{localValue:2, serverValue:58}] to localhost:27017
-[00:17:16] [cluster-rtt-ClusterId{value='6672157c0d51161302bc90a7', description='null'}-localhost:27017/INFO] [org.mongodb.driver.connection]: Opened connection [connectionId{localValue:1, serverValue:59}] to localhost:27017
-[00:17:16] [cluster-ClusterId{value='6672157c0d51161302bc90a7', description='null'}-localhost:27017/INFO] [org.mongodb.driver.cluster]: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=17293900}
-[00:17:17] [Velocity Async Event Executor - #0/INFO] [luckperms]: Loading internal permission managers...
-[00:17:17] [Velocity Async Event Executor - #0/INFO] [luckperms]: Performing initial data load...
-[00:17:17] [LuckPerms - Task Executor #4/INFO] [org.mongodb.driver.connection]: Opened connection [connectionId{localValue:3, serverValue:60}] to localhost:27017
-[00:17:17] [Velocity Async Event Executor - #0/INFO] [luckperms]: Successfully enabled. (took 754ms)
-[00:17:17] [Netty NIO Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
-[00:17:17] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (2.41s)!
-[00:17:18] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]: ----------------------------------------------
-[00:17:18] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     +==================+
-[00:17:18] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     |   SkinsRestorer  |
-[00:17:18] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     +==================+
-[00:17:18] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]: ----------------------------------------------
-[00:17:18] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     Version: 15.0.15
-[00:17:18] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     Commit: fcfa8b9
-[00:17:18] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]:     This is the latest version!
-[00:17:18] [SkinsRestorer - Task Executor #0/INFO] [skinsrestorer]: ----------------------------------------------
-[00:17:22] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] tomGBO (/127.0.0.1:55684) has connected
-[00:17:22] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] tomGBO -> hub-01 has connected
-[00:17:23] [Velocity Async Event Executor - #7/ERROR] [com.velocitypowered.proxy.event.VelocityEventManager]: Couldn't pass ServerConnectedEvent to nitrogenproxy 1.0
-java.lang.NullPointerException: jedis.hget("nitrogen:pro…ayer.uniqueId.toString()) must not be null
-	at uk.rayware.nitrogenproxy.listener.NitrogenListeners.onPlayerConnection(NitrogenListeners.kt:26) ~[?:?]
-	at uk.rayware.nitrogenproxy.listener.Lmbda$12.execute(Unknown Source) ~[?:?]
-	at com.velocitypowered.proxy.event.UntargetedEventHandler$VoidHandler.lambda$buildHandler$0(UntargetedEventHandler.java:56) ~[velocity.jar:3.3.0-SNAPSHOT (git-9d25d309-b400)]
-	at com.velocitypowered.proxy.event.VelocityEventManager.fire(VelocityEventManager.java:598) ~[velocity.jar:3.3.0-SNAPSHOT (git-9d25d309-b400)]
-	at com.velocitypowered.proxy.event.VelocityEventManager.lambda$fire$5(VelocityEventManager.java:479) ~[velocity.jar:3.3.0-SNAPSHOT (git-9d25d309-b400)]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+[00:55:15] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.3.0-SNAPSHOT (git-9d25d309-b400)...
+[00:55:15] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[00:55:15] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use NIO channels, Java compression, Java ciphers
+[00:55:15] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[00:55:15] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin luckperms 5.4.134 by Luck
+[00:55:15] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nitrogenproxy 1.0 by tomGBO
+[00:55:15] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 2 plugins
+[00:55:15] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:         __    
+[00:55:15] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |    |__)   LuckPerms v5.4.134
+[00:55:15] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]:   |___ |      Running on Velocity - Velocity
+[00:55:15] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: 
+[00:55:15] [Velocity Async Event Executor - #0/INFO] [luckperms]: Loading configuration...
+[00:55:16] [Velocity Async Event Executor - #0/INFO] [luckperms]: Loading storage provider... [MONGODB]
+[00:55:16] [Velocity Async Event Executor - #0/INFO] [org.mongodb.driver.cluster]: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+[00:55:16] [Velocity Async Event Executor - #0/INFO] [luckperms]: Loading messaging service... [REDIS]
+[00:55:16] [cluster-rtt-ClusterId{value='66721e646c9e727f532237d9', description='null'}-localhost:27017/INFO] [org.mongodb.driver.connection]: Opened connection [connectionId{localValue:2, serverValue:103}] to localhost:27017
+[00:55:16] [cluster-ClusterId{value='66721e646c9e727f532237d9', description='null'}-localhost:27017/INFO] [org.mongodb.driver.connection]: Opened connection [connectionId{localValue:1, serverValue:102}] to localhost:27017
+[00:55:16] [cluster-ClusterId{value='66721e646c9e727f532237d9', description='null'}-localhost:27017/INFO] [org.mongodb.driver.cluster]: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=35809600}
+[00:55:16] [Velocity Async Event Executor - #0/INFO] [luckperms]: Loading internal permission managers...
+[00:55:16] [Velocity Async Event Executor - #0/INFO] [luckperms]: Performing initial data load...
+[00:55:16] [LuckPerms - Task Executor #8/INFO] [org.mongodb.driver.connection]: Opened connection [connectionId{localValue:3, serverValue:104}] to localhost:27017
+[00:55:16] [Velocity Async Event Executor - #0/INFO] [luckperms]: Successfully enabled. (took 894ms)
+[00:55:16] [Netty NIO Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[00:55:16] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (1.96s)!
+[00:55:37] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] tomGBO (/127.0.0.1:58756) has connected
+[00:55:37] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] tomGBO -> hub-01 has connected
+[00:55:37] [Velocity Async Event Executor - #6/INFO] [uk.rayware.nitrogenproxy.NitrogenProxy]: [Staff] [connection] (§4§otomGBO§r) join hub-01
+[00:55:40] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] tomGBO (/127.0.0.1:58756) has disconnected
+[00:55:40] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] tomGBO -> hub-01 has disconnected
+[00:55:40] [Velocity Async Event Executor - #7/INFO] [uk.rayware.nitrogenproxy.NitrogenProxy]: [Staff] [connection] (§4§otomGBO§r) leave hub-01
+[00:55:56] [Netty NIO Worker #12/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] tomGBO (/127.0.0.1:58786) has connected
+[00:55:56] [Netty NIO Worker #12/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] tomGBO -> hub-01 has connected
+[00:55:56] [Velocity Async Event Executor - #12/INFO] [uk.rayware.nitrogenproxy.NitrogenProxy]: [Staff] [connection] (§4§otomGBO§r) join hub-01
+[00:57:46] [Netty NIO Worker #12/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] tomGBO (/127.0.0.1:58786) has disconnected: An internal error occurred in your connection.
+[00:57:46] [Netty NIO Worker #12/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] tomGBO (/127.0.0.1:58786): exception encountered in com.velocitypowered.proxy.connection.client.ClientPlaySessionHandler@9402eaf
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:255) ~[velocity.jar:3.3.0-SNAPSHOT (git-9d25d309-b400)]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[velocity.jar:3.3.0-SNAPSHOT (git-9d25d309-b400)]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[velocity.jar:3.3.0-SNAPSHOT (git-9d25d309-b400)]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[velocity.jar:3.3.0-SNAPSHOT (git-9d25d309-b400)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[velocity.jar:3.3.0-SNAPSHOT (git-9d25d309-b400)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.3.0-SNAPSHOT (git-9d25d309-b400)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.3.0-SNAPSHOT (git-9d25d309-b400)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.3.0-SNAPSHOT (git-9d25d309-b400)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.3.0-SNAPSHOT (git-9d25d309-b400)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.3.0-SNAPSHOT (git-9d25d309-b400)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.3.0-SNAPSHOT (git-9d25d309-b400)]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:18:57] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] tomGBO (/127.0.0.1:55684) has disconnected
-[00:18:57] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] tomGBO -> hub-01 has disconnected
-[00:18:57] [Velocity Async Event Executor - #13/ERROR] [com.velocitypowered.proxy.event.VelocityEventManager]: Couldn't pass DisconnectEvent to nitrogenproxy 1.0
-java.lang.NullPointerException: jedis.hget("nitrogen:pro…ayer.uniqueId.toString()) must not be null
-	at uk.rayware.nitrogenproxy.listener.NitrogenListeners.onPlayerLeave(NitrogenListeners.kt:55) ~[?:?]
-	at uk.rayware.nitrogenproxy.listener.Lmbda$13.execute(Unknown Source) ~[?:?]
-	at com.velocitypowered.proxy.event.UntargetedEventHandler$VoidHandler.lambda$buildHandler$0(UntargetedEventHandler.java:56) ~[velocity.jar:3.3.0-SNAPSHOT (git-9d25d309-b400)]
-	at com.velocitypowered.proxy.event.VelocityEventManager.fire(VelocityEventManager.java:598) ~[velocity.jar:3.3.0-SNAPSHOT (git-9d25d309-b400)]
-	at com.velocitypowered.proxy.event.VelocityEventManager.lambda$fire$5(VelocityEventManager.java:479) ~[velocity.jar:3.3.0-SNAPSHOT (git-9d25d309-b400)]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[00:57:46] [Netty NIO Worker #12/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] tomGBO -> hub-01 has disconnected
+[00:57:46] [Velocity Async Event Executor - #15/INFO] [uk.rayware.nitrogenproxy.NitrogenProxy]: [Staff] [connection] (§4§otomGBO§r) leave hub-01

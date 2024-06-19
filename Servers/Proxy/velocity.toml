@@ -6,7 +6,8 @@ bind = "0.0.0.0:25565"
 
 # What should be the MOTD? This gets displayed when the player adds your server to
 # their server list. Only MiniMessage format is accepted.
-motd = "<#09add3>A Velocity Server"
+motd = "<b><dark_red>MethMC</dark_red> <gray>｜</gray></b> <white>Local Proxy</white>
+<aqua>:-)</aqua>"
 
 # What should we display for the maximum number of players? (Velocity does not support a cap
 # on the number of players online.)
@@ -73,7 +74,7 @@ enable-player-address-logging = true
 # Configure your servers here. Each key represents the server's name, and the value
 # represents the IP address of the server to connect to.
 hub-01 = "127.0.0.1:25566"
-
+arena = "127.0.0.1:25567"
 
 # In what order we should try servers when a player logs in or is kicked from a server.
 try = [

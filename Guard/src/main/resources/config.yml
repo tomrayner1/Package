@@ -1,0 +1,4 @@
+autoban: true
+ban: kick %player% Unfair Advantage
+announcePunishment: true
+announceMessage: "&c%player% &7has been removed for&c Unfair Advantage&7."

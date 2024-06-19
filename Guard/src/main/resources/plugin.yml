@@ -1,0 +1,4 @@
+authors: [tomGBO]
+name: Guard
+main: uk.rayware.guard.Guard
+version: ${project.version}-${git.commit.id.abbrev}
